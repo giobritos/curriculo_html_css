@@ -1,0 +1,103 @@
+body {
+  background-color: #f2f2f2; /* Cor de fundo suave */
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Escolha uma fonte apropriada */
+}
+
+h1 {
+  color: #ff6b6b; /* Cor do título principal */
+  font-size: 36px; /* Tamanho da fonte do título principal */
+}
+
+h1::before {
+  content: "\1F4CA"; /* Use um código Unicode para um ícone de lupa, ou substitua por uma imagem */
+  margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+a {
+  color: #ff6b6b; /* Cor personalizada para links */
+}
+
+.secao {
+  background-color: #ffffff; /* Cor de fundo das seções */
+  border: 1px solid #dddddd; /* Borda das seções */
+  padding: 20px; /* Espaçamento interno das seções */
+  margin-bottom: 20px; /* Espaçamento entre as seções */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #dddddd;
+}
+
+tr.par {
+  background-color: #f2f2f2;
+}
+
+tr.impar {
+  background-color: #ffffff;
+}
+
+form {
+  background-color: #f2f2f2; /* Cor de fundo do formulário */
+  padding: 20px;
+  border: 1px solid #dddddd; /* Borda do formulário */
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #0077b6; /* Cor de fundo do botão de envio */
+  color: #ffffff; /* Cor do texto do botão de envio */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+td.basico {color: #a99;}
+td.medio {color: #a77;}
+td.avancado {color: rgb(170, 169, 85);}
+td.fluente {color: rgb(71, 170, 51);}
+
+.circle-image {
+    float: right;
+    margin-right: 5em;
+    border: #fff 1em solid;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+.circle-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+	width: 15em;
+}
+
+label:after {
+	content: ":";
+}
+
+form label {
+	display: block;
+}
